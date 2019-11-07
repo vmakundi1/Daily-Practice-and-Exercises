@@ -96,7 +96,7 @@
             </fieldset>
         </div>
         <div class="col-sm-6">
-            <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Submit_Click" />&nbsp;&nbsp;
+            <asp:Button ID="Submit" runat="server" Text="Submit Registration" OnClick="Submit_Click" />&nbsp;&nbsp;
             <asp:Label ID="Message" runat="server" ></asp:Label>
             <br /><br />
         </div>
