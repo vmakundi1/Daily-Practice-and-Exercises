@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="points to the root of your menu, we will not display">
+ 
+    <siteMapNode url="~/Default.aspx" title="Home"  description="home page, starting page of web site" />  
+    <siteMapNode url="~/MovieLibrary/LibraryForMovie.aspx" title="Movie Library" description="root menu item for dropdown, starts dropdown structure">
+    </siteMapNode>
+    <siteMapNode url="~/Contact.aspx" title="Contact"  description="given" />
+    <siteMapNode url="~/About.aspx" title="About"  description="given" />
+  </siteMapNode>
+</siteMap>
