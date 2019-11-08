@@ -58,10 +58,16 @@
          ControlToValidate="Password"
          ValidationExpression="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$">
     </asp:RegularExpressionValidator>
+
+            <asp:CompareValidator runat="server" id="CompareValidatorEmail" controltovalidate="EmailConfirm" controltocompare="EmailAddress"
+    operator="equal" type="String" errormessage="Email and Email confirm do not match" /><br />
+
+             <asp:CompareValidator runat="server" id="CompareValidatorPassword" controltovalidate="PasswordConfirm" controltocompare="Password"
+    operator="equal" type="String" errormessage="Password and Password confirm do not match" /><br />
+
 <%--vALIDATION SUMMARY CONTROL TO DISPLAY VALIDATION ERRORS--%>
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
         </div>
-
      </div>
 
     <%--User form below--%>
@@ -85,9 +91,17 @@
                      AssociatedControlID="EmailAddress"></asp:Label>
                 <asp:TextBox ID="EmailAddress" runat="server"></asp:TextBox>
 
+                <asp:Label ID="Label4" runat="server" Text="Confirm Email"
+                     AssociatedControlID="EmailConfirm"></asp:Label>
+                <asp:TextBox ID="EmailConfirm" runat="server"></asp:TextBox>
+
                 <asp:Label ID="Label3" runat="server" Text="Password"
                      AssociatedControlID="Password"></asp:Label>
                 <asp:TextBox ID="Password" runat="server"></asp:TextBox>
+
+                <asp:Label ID="Label5" runat="server" Text="Confirm Password"
+                     AssociatedControlID="PasswordConfirm"></asp:Label>
+                <asp:TextBox ID="PasswordConfirm" runat="server"></asp:TextBox>
                 </fieldset>
 
                <p>You must agree to the terms.

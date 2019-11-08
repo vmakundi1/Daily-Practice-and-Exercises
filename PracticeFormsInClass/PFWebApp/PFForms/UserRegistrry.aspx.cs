@@ -40,6 +40,12 @@ namespace PFWebApp.PFForms
                     Message.Text = "You did not agree to the website terms";
                 }
             }
+            //if (!Page.IsValid)
+            //{
+            //    lblTest.Text = "Testigngngnnngngngng";
+            //    Panel1.Visible = true;
+            //}
+            
         }
     }
 }
