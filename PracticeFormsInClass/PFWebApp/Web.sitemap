@@ -11,8 +11,8 @@
           -->
     <siteMapNode url="~/PFForms/UserRegistrry.aspx" title="PFForms" description="root menu item for dropdown, starts dropdown structure">
       <!-- all siteMapNodes within this set are sub menu items-->
-      <siteMapNode url="~/PFForms/UserRegistrry.aspx" title="User Registration"
-                   description="User Registration" />
+      <!--<siteMapNode url="~/PFForms/UserRegistrry.aspx" title="User Registration"
+                   description="User Registration" />-->
     </siteMapNode>
     <siteMapNode url="~/Contact.aspx" title="Contact"  description="given" />
     <siteMapNode url="~/About.aspx" title="About"  description="given" />

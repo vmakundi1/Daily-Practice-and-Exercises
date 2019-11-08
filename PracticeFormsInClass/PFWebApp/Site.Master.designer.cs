@@ -7,22 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PFWebApp
-{
-
-
-    public partial class SiteMaster
-    {
-
+namespace PFWebApp {
+    
+    
+    public partial class SiteMaster {
+        
         /// <summary>
-        /// HeadContent control.
+        /// BasicAspNetMenu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
-
+        protected global::System.Web.UI.WebControls.Menu BasicAspNetMenu;
+        
+        /// <summary>
+        /// BasicAspNetMenuDS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SiteMapDataSource BasicAspNetMenuDS;
+        
         /// <summary>
         /// MainContent control.
         /// </summary>

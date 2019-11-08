@@ -88,17 +88,26 @@
                 <asp:Label ID="Label3" runat="server" Text="Password"
                      AssociatedControlID="Password"></asp:Label>
                 <asp:TextBox ID="Password" runat="server"></asp:TextBox>
-             
-               <p>Note: You must agree to the terms in order to be entered.
+                </fieldset>
+
+               <p>You must agree to the terms.
                <br />
                <asp:CheckBox ID="Terms" runat="server" Text="I agree to the terms of this site" />
-           </p>
-            </fieldset>
+               </p>
+         
         </div>
         <div class="col-sm-6">
-            <asp:Button ID="Submit" runat="server" Text="Submit Registration" OnClick="Submit_Click" />&nbsp;&nbsp;
-            <asp:Label ID="Message" runat="server" ></asp:Label>
-            <br /><br />
+            <div class="col-md-offset-2">
+                <p>
+                    <asp:Button ID="Submit" runat="server" Text="Submit Registration" OnClick="Submit_Click" />&nbsp;&nbsp;
+
+                </p>
+                <asp:Label ID="Message" runat="server"></asp:Label><br /><br />
+                <asp:GridView ID="EntryList" runat="server">
+
+                </asp:GridView>
+
+            </div>
         </div>
     </div>
     <script src="../Scripts/bootwrap-freecode.js"></script>

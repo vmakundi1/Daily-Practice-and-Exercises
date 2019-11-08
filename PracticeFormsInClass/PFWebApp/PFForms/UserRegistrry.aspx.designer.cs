@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PFWebApp.PFForms
-{
-
-
-    public partial class UserRegistrry
-    {
-
+namespace PFWebApp.PFForms {
+    
+    
+    public partial class UserRegistrry {
+        
         /// <summary>
         /// RequiredFirstName control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFirstName;
-
+        
         /// <summary>
         /// RequiredLastName control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredLastName;
-
+        
         /// <summary>
         /// RequiredUserName control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredUserName;
-
+        
         /// <summary>
         /// RequiredEmailAddress control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredEmailAddress;
-
+        
         /// <summary>
         /// RegExEmailAddress control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExEmailAddress;
-
+        
         /// <summary>
         /// RequiredPassword control.
         /// </summary>
@@ -67,7 +65,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredPassword;
-
+        
         /// <summary>
         /// RegExPassword control.
         /// </summary>
@@ -76,7 +74,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExPassword;
-
+        
         /// <summary>
         /// ValidationSummary1 control.
         /// </summary>
@@ -85,7 +83,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
-
+        
         /// <summary>
         /// Label1 control.
         /// </summary>
@@ -94,7 +92,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-
+        
         /// <summary>
         /// FirstName control.
         /// </summary>
@@ -103,7 +101,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox FirstName;
-
+        
         /// <summary>
         /// Label6 control.
         /// </summary>
@@ -112,7 +110,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
-
+        
         /// <summary>
         /// LastName control.
         /// </summary>
@@ -121,7 +119,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox LastName;
-
+        
         /// <summary>
         /// Label7 control.
         /// </summary>
@@ -130,7 +128,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label7;
-
+        
         /// <summary>
         /// UserName control.
         /// </summary>
@@ -139,7 +137,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox UserName;
-
+        
         /// <summary>
         /// Label2 control.
         /// </summary>
@@ -148,7 +146,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-
+        
         /// <summary>
         /// EmailAddress control.
         /// </summary>
@@ -157,7 +155,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EmailAddress;
-
+        
         /// <summary>
         /// Label3 control.
         /// </summary>
@@ -166,7 +164,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
-
+        
         /// <summary>
         /// Password control.
         /// </summary>
@@ -175,7 +173,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Password;
-
+        
         /// <summary>
         /// Terms control.
         /// </summary>
@@ -184,7 +182,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox Terms;
-
+        
         /// <summary>
         /// Submit control.
         /// </summary>
@@ -193,7 +191,7 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Submit;
-
+        
         /// <summary>
         /// Message control.
         /// </summary>
@@ -202,5 +200,14 @@ namespace PFWebApp.PFForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Message;
+        
+        /// <summary>
+        /// EntryList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView EntryList;
     }
 }
