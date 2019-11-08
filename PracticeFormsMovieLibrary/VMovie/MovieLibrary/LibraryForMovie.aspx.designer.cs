@@ -31,15 +31,6 @@ namespace VMovie.MovieLibrary {
         protected global::System.Web.UI.WebControls.RangeValidator RangeYear;
         
         /// <summary>
-        /// RequiredRating control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredRating;
-        
-        /// <summary>
         /// ValidationSummary1 control.
         /// </summary>
         /// <remarks>
@@ -58,13 +49,13 @@ namespace VMovie.MovieLibrary {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Title control.
+        /// MovieTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Title;
+        protected global::System.Web.UI.WebControls.TextBox MovieTitle;
         
         /// <summary>
         /// Label2 control.

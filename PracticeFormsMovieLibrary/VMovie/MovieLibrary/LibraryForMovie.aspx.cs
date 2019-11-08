@@ -25,7 +25,7 @@ namespace VMovie.MovieLibrary
         {
             if(Page.IsValid)
             {
-                Entries.Add(new TVMovies(Title.Text,
+                Entries.Add(new TVMovies(MovieTitle.Text,
                                             Year.Text,
                                             Media.Text,
                                             Rating.Text,

@@ -22,7 +22,7 @@
     <asp:RequiredFieldValidator ID="RequiredTitle" runat="server" 
         ErrorMessage="Title is required" 
          ForeColor="#990000"  SetFocusOnError="true" Display="None"
-         ControlToValidate="Title">
+         ControlToValidate="MovieTitle">
     </asp:RequiredFieldValidator>
 
      <asp:RangeValidator ID="RangeYear" runat="server" 
@@ -31,11 +31,11 @@
          ControlToValidate="Year" MinimumValue="1900" MaximumValue="2019" Type="Integer">
     </asp:RangeValidator>
 
-    <asp:RequiredFieldValidator ID="RequiredRating" runat="server" 
+ <%--   <asp:RequiredFieldValidator ID="RequiredRating" runat="server" 
         ErrorMessage="You must indicate the type of rating for which the movie is stored" Display="None"
          ForeColor="#990000"  SetFocusOnError="true" 
          ControlToValidate="Rating">
-    </asp:RequiredFieldValidator>
+    </asp:RequiredFieldValidator>--%>
 
 
     <%-- Validation summary control to display the validation errors --%>
@@ -50,8 +50,8 @@
                 <legend>Movie Library Form</legend> 
 
                 <asp:Label ID="Label1" runat="server" Text="Title"
-                     AssociatedControlID="Title"></asp:Label>
-                <asp:TextBox ID="Title" runat="server"></asp:TextBox>
+                     AssociatedControlID="MovieTitle"></asp:Label>
+                <asp:TextBox ID="MovieTitle" runat="server"></asp:TextBox>
 
                 <asp:Label ID="Label2" runat="server" Text="Year"
                      AssociatedControlID="Year"></asp:Label>
@@ -62,7 +62,7 @@
                 <asp:RadioButtonList ID="Media" runat="server"
                      RepeatDirection="Vertical" RepeatLayout="Flow">
                     <asp:ListItem>DVD&nbsp;&nbsp;</asp:ListItem>
-                    <asp:ListItem>VHS</asp:ListItem>
+                    <asp:ListItem>VHS&nbsp;&nbsp;</asp:ListItem>
                     <asp:ListItem>File</asp:ListItem>
                 </asp:RadioButtonList>
            
@@ -70,10 +70,10 @@
                      AssociatedControlID="Rating"></asp:Label>
                 <asp:CheckBoxList ID="Rating" runat="server"
                      RepeatLayout="Flow" RepeatDirection="Vertical">
-                    <asp:ListItem>General</asp:ListItem>
-                    <asp:ListItem>ParentalGuidance</asp:ListItem>
-                    <asp:ListItem>14A</asp:ListItem>
-                    <asp:ListItem>Restricted</asp:ListItem>
+                    <asp:ListItem>General&nbsp;&nbsp;</asp:ListItem>
+                    <asp:ListItem>ParentalGuidance&nbsp;&nbsp;</asp:ListItem>
+                    <asp:ListItem>14A&nbsp;&nbsp;</asp:ListItem>
+                    <asp:ListItem>Restricted&nbsp;&nbsp;</asp:ListItem>
                 </asp:CheckBoxList>
 
                <asp:Label ID="Label3" runat="server" Text="Review"
